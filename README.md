@@ -1,6 +1,6 @@
-# MHT Extractor 
+# Email Files Extractor 
 
-An extractor to extract files from MHTML files and store the files inside a specified path.
+An extractor to extract files from MHTML or Email files which is stored in Amazon S3 and store the files inside a specified path.
 
 ### How to run the binary
 
@@ -21,5 +21,5 @@ An extractor to extract files from MHTML files and store the files inside a spec
 3. To run this binary, it accepts a parameter and a flag
 
 ```
-    ./target/release/mht-extractor [ID] -o [PATH]
+    ./target/release/email-extractor [ID] -o [PATH]
 ```
