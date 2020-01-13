@@ -3,7 +3,11 @@ name = "email-extractor"
 version = "0.1.0"
 authors = ["iamsaquib <saquib@distill.io>"]
 edition = "2018"
-
+description = """
+    A file extractor to extract files out of email files and store them locally
+"""
+license = "GPL-3.0"
+repository = "https://github.com/distill-io/email-files-extractor"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
