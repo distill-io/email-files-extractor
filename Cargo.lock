@@ -439,6 +439,17 @@ version = "1.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "email-extractor"
+version = "0.1.0"
+dependencies = [
+ "actix-rt 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "clap 2.33.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "flate2 1.0.13 (registry+https://github.com/rust-lang/crates.io-index)",
+ "mail_extractor 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rust-s3 0.18.9 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "encoding_rs"
 version = "0.8.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -916,17 +927,6 @@ version = "0.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "rustc_version 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "mht-extractor"
-version = "0.1.0"
-dependencies = [
- "actix-rt 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "clap 2.33.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "flate2 1.0.13 (registry+https://github.com/rust-lang/crates.io-index)",
- "mail_extractor 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "rust-s3 0.18.9 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

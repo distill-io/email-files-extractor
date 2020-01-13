@@ -1,5 +1,5 @@
 [package]
-name = "mht-extractor"
+name = "email-extractor"
 version = "0.1.0"
 authors = ["iamsaquib <saquib@distill.io>"]
 edition = "2018"
