@@ -10,7 +10,7 @@ An extractor to extract files from MHTML or Email files which is stored in Amazo
     cargo build --release
 ```
 
-2. After build is triggered a binary file will be created inside **./target/release/mht-extractor**, now set the environment variables for AWS configuration. Run in terminal.
+2. After build is triggered a binary file will be created inside **./target/release/email-extractor**, now set the environment variables for AWS configuration. Run in terminal.
 ```
     export bucket_name=[BUCKET_NAME]
     export region=[REGION]
