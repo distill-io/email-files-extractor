@@ -22,7 +22,7 @@ fn get_files(filename: &str) -> HashMap<String, Vec<u8>> {
 
 fn main() {
     let mut link_to_hash: HashMap<String, Vec<u8>> = HashMap::new();
-    let matches = App::new("MHT Extractor")
+    let matches = App::new("Email File Extractor")
         .version("1.0")
         .author("IamSaquib <saquib@distill.io>")
         .about("Extracts file from provided MHT file and stores it locally")
