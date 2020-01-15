@@ -1,6 +1,6 @@
 [package]
 name = "email-extractor"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["iamsaquib <saquib@distill.io>"]
 edition = "2018"
 description = """
@@ -14,5 +14,4 @@ repository = "https://github.com/distill-io/email-files-extractor"
 rust-s3 = "0.18.9"
 mail_extractor = "0.1.2"
 flate2 = "1.0.13"
-actix-rt = "1.0.0"
 clap = "2.33.0"

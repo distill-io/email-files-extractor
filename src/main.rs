@@ -16,7 +16,6 @@ fn get_files(filename: &str) -> HashMap<String, Vec<u8>> {
         Err(e) => panic!("Unable to read string {}", e), 
     };
     let extracted_file: HashMap<String, Vec<u8>> = mail_extractor::rewrite(s.as_bytes().to_vec());
-    // extracted_file = mail_extractor::rewrite(mht_file);
     extracted_file
 }
 
