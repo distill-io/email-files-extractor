@@ -19,7 +19,7 @@ fn create_output_files(dirname: String, link: HashMap<String, Vec<u8>>) {
 
 fn main() {
     let mut link_to_hash: HashMap<String, Vec<u8>> = HashMap::new();
-    let matches = App::new("Email File Extractor")
+    let matches = App::new("Mail File Extractor Binary")
         .version("1.0")
         .author("IamSaquib <saquib@distill.io>")
         .about("Extracts file from provided MHT file and stores it locally")
@@ -28,7 +28,7 @@ fn main() {
                 .index(1)
                 .value_name("string")
                 .required(true)
-                .help("Takes an input string"),
+                .help("Takes FileName as input"),
             Arg::with_name("output-file")
                 .index(2)
                 .value_name("string")
